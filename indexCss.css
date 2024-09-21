@@ -1,0 +1,70 @@
+body{
+    background-color: #f3e5d8;
+    color:rgb(70, 68, 68);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5pt;
+}
+.main{
+    background-color: white;
+    width: 50%;
+    padding: 20pt;
+    align-self: center;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.main img{
+    width:100%;
+    border-radius: 2%;
+    object-fit: cover;
+}
+.main h1{
+    color:#393937; 
+}
+.PreperationTime{
+    background-color: #FFF7FC;
+    padding: 10pt;
+    margin: 20pt;
+}
+.PreperationTime h2{
+    color: #874D66; 
+}
+ h2{
+    color: #79493A;  
+}
+.tableValue{
+    color: #79493A;
+    font-weight: bold;
+}
+hr{
+    color: #727272;
+}
+ li{
+    padding:5pt;
+    padding-left: 20px;
+}
+.instructionsStyle li::marker{
+    font-weight: bold;
+    color:#79493A;
+    width:50%;
+    margin-right: 20pt;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin:5px;
+    padding: 10px;
+}
+
+table tr {
+    padding:10pt;
+    border-bottom: 1px solid #727272;
+}
+table tr:last-child {
+    border-bottom: none; 
+}
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
