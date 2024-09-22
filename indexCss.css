@@ -72,26 +72,26 @@ table th, table td {
     body {
         font-size: 20pt;
         margin: 0;
-        padding: 0;
-        background-color: white;
+        padding: 0pt;
+        display:flex;
+        padding:0;
     }
     .main{
         width:100%;
         border-radius: 0;
-        padding: 10pt;
-        margin:5pt;
+        padding: 0;
     }
     .PreperationTime {
-        margin: 0px;
-        padding: 0px;
+        margin: 5pt;
+        padding: 5pt;
     }
 
     .main img {
+        margin:0;
+        padding: 0;
         width: 100%;
         border-radius: 0;
-        display: block;
-        margin:-10;
-        padding: -10;
+        object-fit:fill;
     }
 
     .PreperationTime,
@@ -103,11 +103,19 @@ table th, table td {
 
     h1 {
         font-size: 35pt;
+        padding:10pt;
     }
     
     table,
     th,
     td {
         font-size: 16pt;
+    }
+    p,h2{
+        padding-left: 15pt;
+    }
+    .instructionsStyle{
+        padding-left: 20pt;
+        margin-left: 20px;
     }
 }
