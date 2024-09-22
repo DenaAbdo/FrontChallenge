@@ -70,7 +70,7 @@ table th, table td {
 }
 @media (max-width: 624px) {
     body {
-        font-size: 16px;
+        font-size: 20pt;
         margin: 0;
         padding: 0;
         background-color: white;
@@ -82,8 +82,8 @@ table th, table td {
         margin:5pt;
     }
     .PreperationTime {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
 
     .main img {
@@ -97,17 +97,17 @@ table th, table td {
     .PreperationTime,
     .instructionsStyle,
     header, instructionsDiv,ingredients {
-        padding: 10px;
-        margin: 10px;
+        padding: 10pt;
+        margin: 10pt;
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 35pt;
     }
     
     table,
     th,
     td {
-        font-size: 14px;
+        font-size: 16pt;
     }
 }
