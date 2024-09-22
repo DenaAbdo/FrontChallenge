@@ -77,21 +77,26 @@ table th, table td {
     }
     .main{
         width:100%;
+        border-radius: 0;
+        padding: 10pt;
+        margin:5pt;
     }
     .PreperationTime {
         margin: 0px;
         padding: 0px;
-        border-radius: 0;
     }
 
-    img {
+    .main img {
         width: 100%;
         border-radius: 0;
+        display: block;
+        margin:-10;
+        padding: -10;
     }
 
     .PreperationTime,
     .instructionsStyle,
-    header {
+    header, instructionsDiv,ingredients {
         padding: 10px;
         margin: 10px;
     }
