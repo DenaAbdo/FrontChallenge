@@ -72,8 +72,12 @@ table th, table td {
     body {
         font-size: 16px;
         margin: 0;
+        padding: 0;
+        background-color: white;
     }
-
+    .main{
+        width:100%;
+    }
     .PreperationTime {
         margin: 0px;
         padding: 0px;
@@ -95,9 +99,7 @@ table th, table td {
     h1 {
         font-size: 35px;
     }
-    h2{
-        font-size: small;
-    }
+    
     table,
     th,
     td {
